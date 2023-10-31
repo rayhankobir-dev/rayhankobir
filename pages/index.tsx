@@ -9,7 +9,7 @@ export default function home() {
         <link rel="shortcut icon" href="/favicon.png" />
         <meta name="description" content="Rayhan Kobir | Software Developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Rayhan Kobir | Frontend Developer" />
+        <meta property="og:title" content="Rayhan Kobir | Software Developer" />
         <meta
           name="description"
           content="Hey! I'm Rayhan Kobir, and I'm a Bachelor of Science in Computer Science graduate."
