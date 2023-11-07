@@ -60,7 +60,7 @@ const projects = [
   },
   {
     title: "Taskify-Task Management",
-    imgSrc: "https://taskify-main.vercel.app/screenshot.png",
+    imgSrc: "/projects/taskify.png",
     code: "https://github.com/rayhankobir-dev/taskify",
     projectLink: "https://taskify-main.vercel.app",
     tech: ["React", "Node.js", "MongoDB", "Tailwind"],
