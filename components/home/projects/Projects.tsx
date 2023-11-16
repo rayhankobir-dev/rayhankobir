@@ -46,7 +46,7 @@ const projects = [
     projectLink: "https://puzzle-solver-lovat.vercel.app/",
     tech: ["React", "Algorithm", "API", "Tailwind CSS", "A* Search"],
     description:
-      "A podcast and audibook platform where user can find their preferable podcasts and audiobook.",
+      "Provides the ability to see the solution of puzzle game with iteration tree using  A* Search Algorithm.",
     modalContent: (
       <>
         <p>
@@ -72,6 +72,45 @@ const projects = [
           A task management application built with react(context api),
           authentication and authorization. I have made backend api by using
           node.js and express with mongodb database
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Token Based Authentication",
+    imgSrc: "/projects/token-auth.png",
+    code: "https://github.com/rayhankobir-dev/obeey-api",
+    projectLink: "https://github.com/rayhankobir-dev/obeey-api",
+    tech: ["Node.js", "Express.js", "Prisma", "JWT"],
+    description:
+      "Built a authentication and authorization based on Refresh token by using jwt, prisma, postgresql and express.",
+    modalContent: (
+      <>
+        <p>
+          An authentication and authorization system is crucial for protecting
+          sensitive data and ensuring that only authorized users can access
+          specific resources. I have built a robust authentication and
+          authorization system using JSON Web Tokens (JWTs), Prisma, PostgreSQL,
+          and Express.
+        </p>
+      </>
+    ),
+  },
+  {
+    title: "Hamming Code Visualizer",
+    imgSrc: "/projects/hamming-code.png",
+    code: "https://visualizer-tan.vercel.app/#/heyming",
+    projectLink: "https://github.com/rayhankobir-dev/visualizer",
+    tech: ["React.js", "Hamming Code", "Algorithms"],
+    description:
+      "Developed a Hamming code visualizer using React to enhance the understanding of error correcting codes.",
+    modalContent: (
+      <>
+        <p>
+          Developed a Hamming code visualizer using React to enhance the
+          understanding of error correcting codes. The main challenge was to
+          interactive visualizations that effectively convey the encoding and
+          decoding processes of Hamming codes
         </p>
       </>
     ),

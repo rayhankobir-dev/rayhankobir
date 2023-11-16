@@ -18,14 +18,18 @@ export const Hero = () => {
           </Reveal>
           <Reveal>
             <h2 className={styles.subTitle}>
-              I&apos;m a <span>Full-Stack Developer</span>
+              I&apos;m a <span>Passionate Programmer</span>
             </h2>
           </Reveal>
           <Reveal>
             <p className={styles.aboutCopy}>
-              I&apos;ve spent the last 3 years building and scaling applications
-              for some pretty cool companies and individuals. I also create
-              interesting self projects on my spare time. Let&apos;s connect!
+              with a knack for problem-solving and a love for creating
+              innovative solutions. I have honed my skills through extensive
+              practice, solving over 350 coding challenges on LeetCode and
+              HackerRank. My expertise lies in JavaScript and C programming
+              languages, and I enjoy tackling real-world problems through
+              self-initiated projects. Let&apos;s connect and explore the world
+              of technology together!
             </p>
           </Reveal>
           <Reveal>

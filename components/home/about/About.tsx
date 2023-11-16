@@ -13,26 +13,27 @@ export const About = () => {
         <div>
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
-              Hey! I&apos;m Rayhan Kobir, and I&apos;m a Bachelor of Computer
-              Science graduate.
+              Hello! I&apos;m Rayhan Kobir, and I&apos;m a passionate programmer
+              and software developer proficient in JavaScript
               <br />
               <br />I have experience working in both the mobile and web
-              development worlds, with a focus on frontend development. I&apos;m
-              passionate about creating beautiful, responsive websites that
-              provide a great user experience.
+              development worlds, with a focus on backend development. I&apos;m
+              passionate about finding optimal solution of a problem and
+              creating robhust solution. As well as, I am proficient in frontend
+              development that provide a great user experience.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              My skills include HTML, CSS, JavaScript, and various frontend
-              frameworks like React and Vue.js. I&apos;ve also worked with
-              backend technologies like Node.js, Firebase, MongoDB and
-              PHP/Laravel , allowing me to build full-stack applications.
+              My skills include JavaScript, TypeScript, Node.js, Express.js,
+              MongoDB, PostgreSQL, Redis, Firebase, Docker. And have also worked
+              with various frontend frameworks like React and Next.js, enabling
+              me to craft full-stack applications with seamless integration.
             </p>
           </Reveal>
           <Reveal>
             <p className={styles.aboutText}>
-              When I&apos;m not coding, I enjoy digital painting. I believe that
+              When I&apos;m not coding, I enjoy playing sports. I believe that
               maintaining a healthy work-life balance is crucial for staying
               productive and motivated.
             </p>
