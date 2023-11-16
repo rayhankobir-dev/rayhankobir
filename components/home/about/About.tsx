@@ -14,13 +14,13 @@ export const About = () => {
           <Reveal>
             <p className={`${styles.aboutText} ${styles.highlightFirstLetter}`}>
               Hello! I&apos;m Rayhan Kobir, and I&apos;m a passionate programmer
-              and software developer proficient in JavaScript
+              and software developer proficient in JavaScript.
               <br />
-              <br />I have experience working in both the mobile and web
-              development worlds, with a focus on backend development. I&apos;m
-              passionate about finding optimal solution of a problem and
-              creating robhust solution. As well as, I am proficient in frontend
-              development that provide a great user experience.
+              <br />I have experience working in web development worlds, with a
+              focus on backend development. I&apos;m passionate about finding
+              optimal solution of a problem and creating robhust solution. As
+              well as, I am proficient in frontend development that provide a
+              great user experience.
             </p>
           </Reveal>
           <Reveal>
