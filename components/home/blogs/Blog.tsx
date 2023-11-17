@@ -3,32 +3,17 @@ import { Reveal } from "@/components/utils/Reveal";
 import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
-import { ProjectModal } from "./ProjectModal";
-import styles from "./projects.module.scss";
+import styles from "./blog.module.scss";
 interface Props {
-  modalContent: JSX.Element;
-  description: string;
-  projectLink: string;
+  title: string;
   imgSrc: string;
   tech: string[];
-  title: string;
-  code: string;
+  blogLink: string;
+  description: string;
 }
 
-export const Project = ({
-  modalContent,
-  projectLink,
-  description,
-  imgSrc,
-  title,
-  code,
-  tech,
-}: Props) => {
+export const Blog = ({ title, imgSrc, tech, blogLink, description }: Props) => {
   const [hovered, setHovered] = useState(false);
-
-  const [isOpen, setIsOpen] = useState(false);
-
   const controls = useAnimation();
 
   const ref = useRef(null);
@@ -57,7 +42,6 @@ export const Project = ({
         <div
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
-          onClick={() => setIsOpen(true)}
           className={styles.projectImage}
         >
           <Image
@@ -65,9 +49,9 @@ export const Project = ({
             src={imgSrc}
             alt={title}
             width={500}
-            height={180}
+            height={300}
             style={{
-              width: hovered ? "90% !important" : "85% !important",
+              width: hovered ? "90% !important" : "100% !important",
               rotate: hovered ? "2deg" : "0deg",
             }}
           />
@@ -76,15 +60,6 @@ export const Project = ({
           <Reveal width="100%">
             <div className={styles.projectTitle}>
               <h4>{title}</h4>
-              <div className={styles.projectTitleLine} />
-
-              <Link href={code} target="_blank" rel="nofollow">
-                <AiFillGithub size="2.8rem" />
-              </Link>
-
-              <Link href={projectLink} target="_blank" rel="nofollow">
-                <AiOutlineExport size="2.8rem" />
-              </Link>
             </div>
           </Reveal>
           <Reveal>
@@ -93,21 +68,13 @@ export const Project = ({
           <Reveal>
             <p className={styles.projectDescription}>
               {description} <br />
-              <span onClick={() => setIsOpen(true)}>Learn more {">"}</span>
+              <Link href={blogLink}>
+                <span>Read more {">"}</span>
+              </Link>
             </p>
           </Reveal>
         </div>
       </motion.div>
-      <ProjectModal
-        modalContent={modalContent}
-        projectLink={projectLink}
-        setIsOpen={setIsOpen}
-        isOpen={isOpen}
-        imgSrc={imgSrc}
-        title={title}
-        code={code}
-        tech={tech}
-      />
     </>
   );
 };

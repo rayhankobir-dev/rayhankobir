@@ -8,6 +8,7 @@ import { Projects } from "./projects/Projects";
 import { Experience } from "./experience/Experience";
 import { Contact } from "./contact/Contact";
 import { Education } from "./education/Education";
+import { Blogs } from "./blogs/Blogs";
 
 export const Home = () => {
   return (
@@ -21,6 +22,7 @@ export const Home = () => {
           <Projects />
           <Education />
           <Experience />
+          <Blogs />
           <Contact />
           <div
             style={{
