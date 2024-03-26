@@ -18,6 +18,31 @@ export const Projects = () => {
 
 const projects = [
   {
+    title: "Soccer",
+    imgSrc: "/projects/soccer.png",
+    code: "https://github.com/rayhankobir-dev/sports-frontend",
+    projectLink: "https://sports-release.vercel.app/",
+    tech: ["React", "Node", "Express", "MongoDB", "Cloudinary"],
+    description:
+      "A soccer club training management application using MERN stack presented challenges in ensuring seamless video upload and playback functionality while maintaining security and access controls for coaches and players.",
+    modalContent: (
+      <>
+        <p>
+          Building a soccer club training management application using React,
+          Node.js, Express, and MongoDB presented challenges in ensuring
+          seamless video upload and playback functionality while maintaining
+          security and access controls for coaches and players. Integrating user
+          management features for admins to oversee training sessions and player
+          progress added complexity to the application&apos;s architecture and
+          user interface design.
+        </p>
+        <p>
+          Challenge is optimize podcasts loading time and smooth audio playback.
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Obeey",
     imgSrc: "/projects/obeey.png",
     code: "https://github.com/rayhankobir-dev/obeey",
