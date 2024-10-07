@@ -14,11 +14,37 @@ export const Experience = () => {
 // const experience: any[] = [];
 const experience = [
   {
-    title: "Fresher",
-    position: "Dont have job experiences.",
-    time: "",
-    location: "",
+    title: "Velar",
+    position: "Junior Software Engineer",
+    time: "March, 2022 - Present",
+    location: "Montreal, Canada (Remote)",
     description: "",
-    tech: [""],
+    tech: [
+      "JavaScript",
+      "TypeScript",
+      "Nodejs",
+      "Expressjs",
+      "Nestjs",
+      "MongoDB",
+      "Postgres",
+      "REST API",
+    ],
+  },
+  {
+    title: "Extrem Solutions Ltd.",
+    position: "Junior Software Engineer",
+    time: "March, 2021 - October, 2023",
+    location: "Chittagong, Bangladesh (Hybrid)",
+    description: "",
+    tech: [
+      "JavaScript",
+      "TypeScript",
+      "Nodejs",
+      "Expressjs",
+      "Nestjs",
+      "MongoDB",
+      "Postgres",
+      "REST API",
+    ],
   },
 ];
