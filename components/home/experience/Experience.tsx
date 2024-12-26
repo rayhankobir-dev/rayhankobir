@@ -14,9 +14,30 @@ export const Experience = () => {
 // const experience: any[] = [];
 const experience = [
   {
+    title: "The Red IT",
+    position: "Software Engineer",
+    time: "October, 2024 - Present",
+    location: "Dhaka, Bangladesh (Remote)",
+    description: "",
+    tech: [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST API",
+      "GraphQL",
+      "Serverless",
+      "AWS",
+      "AWS-X-Ray",
+      "AWS-Lambda",
+      "AWS-CloudWatch",
+    ],
+  },
+  {
     title: "Velar",
     position: "Junior Software Engineer",
-    time: "March, 2022 - Present",
+    time: "March, 2024 - October, 2024",
     location: "Montreal, Canada (Remote)",
     description: "",
     tech: [

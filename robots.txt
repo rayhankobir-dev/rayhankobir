@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /api/
+Disallow: /private/
+Allow: /public/
+Allow: /
+
+Sitemap: https://rayhankobir.vercel.app/sitemap.xml

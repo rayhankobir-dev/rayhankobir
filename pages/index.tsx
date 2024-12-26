@@ -5,6 +5,14 @@ export default function home() {
   return (
     <>
       <Head>
+        <meta
+          name="google-site-verification"
+          content="dUhhMsldCKanNfyDZfBnXgzzyza7cR7vAcofz_K7k94"
+        />
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+        <link rel="cononical" href="https://rayhankobir.vercel.app" />
+
         <title>Rayhan Kobir | Software Developer</title>
         <link rel="shortcut icon" href="/favicon.png" />
         <meta name="description" content="Rayhan Kobir | Software Developer" />
@@ -13,6 +21,13 @@ export default function home() {
         <meta
           name="description"
           content="Hey! I'm Rayhan Kobir, and I'm a Bachelor of Science in Computer Science graduate."
+        />
+        <meta property="og:site_name" content="Rayhan Kobir" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="keywords"
+          content="Rayhan Kobir, Software Developer, Frontend Developer, Backend Developer, Nodejs deverloper, Nestjs developer, Reactjs developer, Nextjs developer"
         />
 
         <meta property="og:title" content="Rayhan Kobir | Frontend Developer" />
